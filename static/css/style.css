@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  
+  body{
+    background-color: #E5E5E5;
+  }
+  .login{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 30%;
+    top: 60px;  
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+  
+  .login img{
+    display: block;
+    margin: 10vh auto;
+  }
+  
+  label{
+    color:black;
+    position: relative;
+    right: 29%;
+    font-size: 20px;
+    
+  }
+  
+  input{
+      background-color: #FFFFFF;
+      color: black;
+      border: 1px solid black;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 2%;
+      width: 80%;
+  }
+  
+  .button{
+    background-color: #2F633E;
+    margin: 10%;
+    color: #FFFFFF;
+  }
+  .formulario{
+    text-align: center;
+  }
