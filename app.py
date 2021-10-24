@@ -88,6 +88,8 @@ def editar_usuario(id_user):
                                        username=userLog,
                                        usuario=i,
                                        typeUsers=tipo_usuarios)
+            else:
+                return redirect('/users')
     else:
         nombre = request.values["nombre"]
         apellido = request.values["apellido"]
@@ -198,6 +200,8 @@ def eitar_prveedor(id_provider):
                 return render_template('/provider/editProvider.html',
                                        username=userLog,
                                        provider=i)
+            else:
+                return redirect('/providers')
     else:
         nombre = request.values["nombre"]
         direccion = request.values["direccion"]
